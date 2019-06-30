@@ -50,7 +50,8 @@ p
 }
 #main
 {
-	padding: 0px 500px;
+	padding: 100px;
+	padding-top: 0px;
 }
 #main-footer
 {
