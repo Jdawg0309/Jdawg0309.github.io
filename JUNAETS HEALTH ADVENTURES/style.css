@@ -1,0 +1,112 @@
+body
+{
+	color: black;
+	margin:0;
+	font-family: arial;
+	line-height: 1.6em;
+	background-color:#f4f4f4;
+}
+h3
+{
+	font-size:25px;
+	color:blue;
+}
+p
+{
+	text-indent: 30px;
+}
+#main-header
+{
+	background-color: black;
+	color:white;
+	padding: 10px;
+	margin:0;
+	text-align:center;
+	font-style: italic;
+}
+#navbar
+{
+	margin:0;
+	padding:0.0525px 3px 3px 3px;
+	text-align:center;
+	background-color: skyblue;
+}
+
+#navbar li
+{
+	display:inline;
+	padding:20px;
+}
+#navbar li:hover
+{
+	margin:0px;
+	background-color:grey;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:25px;
+}
+#main
+{
+	padding: 0px 500px;
+}
+#main-footer
+{
+	text-align:center;
+	background-color:black;
+	padding: 10px;
+	margin-top:20px;
+	color: white;
+}
+#Calculator
+{
+	background-color: beige;
+	border:10px double;
+	padding:20px;
+	margin: 40px 300px;
+	padding:15px;
+	border-radius:15px;
+}
+#Calculator label
+{
+	font-size:20px;
+	display:block;
+}
+.my-form
+{
+	text-align:center;
+	padding:40px;
+
+}
+
+.my-form .form-group
+{
+	padding-bottom:15px;
+}
+
+.my-form label
+{
+	padding-bottom: 10px;
+	display:block;
+}
+
+.my-form input[type="number"], .my-form select
+{
+	font-size:20px;
+	padding:8px;
+	width: 65%;
+}
+
+.my-form button
+{
+	padding:10px 20px;
+	background-color: black;
+	color: white;
+	border: 1px solid grey;
+}
+.my-form button:hover
+{
+	background-color: red;
+}

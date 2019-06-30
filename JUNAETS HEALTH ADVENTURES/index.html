@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Junaet's BMR Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>BMR CALCULATOR</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="#">BMI Calculator</a></li>
+				<li><a href="#">Body Fat Percentage</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="content">
+		<section id="main">
+			<h3>
+				Metabolism	
+			</h3>
+				<p>
+					The impact of metabolic damage and the destruction in can bring is absolutely terrifying. Damaging your metabolism makes it harder to lose weight, and if you're a hard gainer, its the reason why you can't gain weight. 
+				</p>
+
+				<h3>
+					What is your Basal Metabolic Rate?
+				</h3>
+				<p>
+					Your does many actions throughout the body to maintain homeostasis, and one of your life functions is your metabolism. Metabolism can be described as the process in which your body converts what you eat and drink into energy that will later be used in other body functions such as breathing, blood circulation, reparation of cells, growing - to live in general. Your metabolism is linked to how many calories you burn in a day, and is influenced by a multitude of factors such as your <b>body size and composition</b>, <b>your sex</b>, and <b>your age</b>. 
+				</p>
+				<h3>
+					How does body composition affect your metabolism?
+				</h3>
+				<p>
+					Why is it that strong, lean, bulky guys eat so much, but never seem to gain weight? It's simply because they have much more muscle mass than your average fat person. Each pound of muscle burns approximately 4 calories, while each pound of fat burns 2 calories. It is absolutely necessary for strong people to eat consistently in order to preserve muscle mass, else they will enter a state of <b>atrophy</b>, which will reduce a person's muscle mass in order to maintain homeostasis. 
+				</p>
+				<h3>
+					How does sex affect your metabolism?
+				</h3>
+				<p>
+					Men generally have more muscle mass than women, and that is due to the fact that men have more amounts of testosterone, a hormone in men that gives them their masculine features. When people use steroids to build muscle, they do so using almost 400x the normal  amount the body produces, which disrupts homeostasis. In order to maintain homeostasis, the body will also increase the production of other hormones such as estrogen, which can bring feminine qualities such as gynoclamastia (man boobs) and shrink the size of the testicles. 
+				</p>
+				<h3>
+					How does age affect your metabolism?
+				</h3>
+				<p>
+					As you age, the production of testosterone and other hormones such as growth hormone naturally begin to slow down, which inhibits muscle mass production.
+				</p>
+		</section>
+		<aside id="Calculator">
+			<h1 style="text-align: center">
+			<p>Enter your information and find out your metabolism!</p>
+		</h1>
+			<form class="my-form" action="BMR.jar">
+				<label id="inputs">Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+				<br>
+				<br>
+				<div class="form-group">
+					<label>Height in Inches</label>
+					<input type="number" name="height" value="70">
+					<br>
+					<br>
+				</div>
+
+				<div class="form-group">
+					<label>Weight in Pounds</label>
+					<input type="number" name="weight" value="170">
+					<br>
+					<br>
+				</div>
+
+				<div class="form-group">
+					<label>Age</label>
+					<input type="number" name="age" value="25">
+					<br>
+					<br>
+				</div>
+
+				<div class="form-group">
+					<label>Activity Level</label>
+					<select name="activityLevel">
+						<option value="None">None(Gives BMR)</option>
+						<option value="Sedentary">Sedentary</option>
+						<option value="Active">Active(exercise 3-5 times a week)</option>
+						<option value="Extreme">Extremely Active(exercise 5-7 times a week)</option>
+					</select>
+					<br>
+					<br>
+				</div>
+
+				<button type="Submit" name="Submit" value="Submit">Submit</button>
+			</form>
+		</aside>
+	</div>
+
+	<footer id="main-footer">
+		<p>Copyright &copy; Junaet's Health Adventures</p>
+	</footer>
+</body>
+</html>
